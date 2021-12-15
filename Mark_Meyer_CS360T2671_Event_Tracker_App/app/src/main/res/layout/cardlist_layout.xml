@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/event1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_image"
+    android:clickable="true"
+    app:cardBackgroundColor="#870D47"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="12dp"
+    app:cardMaxElevation="20dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:layout_constraintTop_toBottomOf="parent">
+
+    <RelativeLayout
+        android:layout_width="353dp"
+        android:layout_height="163dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/card"
+            android:layout_width="359dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:contentDescription="@string/app_name"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="37dp" />
+
+
+
+        <EditText
+            android:id="@+id/event_name_display"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignTop="@id/card"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="start"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:text="@string/event_list_item"
+            android:textColor="#00FFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/sched_event_stamp1"
+            android:layout_width="107dp"
+            android:layout_height="61dp"
+            android:layout_alignEnd="@id/sched_time_stamp1"
+            android:layout_alignBottom="@id/card"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="-7dp"
+            android:backgroundTint="#00FFFFFF"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:labelFor="@id/sched_event_stamp1"
+            android:minHeight="48dp"
+            android:text="@string/date_list_item"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <EditText
+            android:id="@+id/sched_time_stamp1"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="55dp"
+            android:backgroundTint="#00FFFFFF"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:labelFor="@id/sched_time_stamp1"
+            android:minHeight="48dp"
+            android:text="@string/time_list_item"
+            android:textColor="#FAFAFA"
+            android:textSize="14sp"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <EditText
+            android:id="@+id/multi_text_box"
+            android:layout_width="310dp"
+            android:layout_height="73dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="4dp"
+            android:backgroundTint="#00FFFFFF"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text="@string/add_notes_here"
+            android:textSize="14sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/card_pos"
+            android:layout_width="52dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="#00FFFFFF"
+            android:ems="10"
+            android:inputType="number"
+            android:text="@string/card_index_num"
+            android:onClick="changeIndexDisplay"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

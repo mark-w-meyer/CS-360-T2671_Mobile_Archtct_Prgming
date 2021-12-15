@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Mark_Meyer_CS360-T2671_Event_Tracker_App</string>
+    <string name="enter_username">Username</string>
+    <string name="button_login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="button_register">Register</string>
+    <string name="enter_password">Password</string>
+    <string name="verify_password">Verify Password</string>
+    <string name="create_or_forgot_password">New User? Click "CREATE ACCOUNT".</string>
+    <string name="event_list_title">MY EVENTS</string>
+    <string name="event_list_item">Event Test Name</string>
+    <string name="date_list_item">SAT 12/25/21</string>
+    <string name="time_list_item">12:00 PM</string>
+    <string name="card_index_num">1</string>
+    <string name="enter_event_name">Event Name</string>
+    <string name="event_edit_notes_hint">Add notes here…</string>
+    <string name="submit_date_button">Submit</string>
+    <string name="time_text">Time: </string>
+    <string name="ask_permission_send_sms">Do you agree to grant this app permission to send you SMS alerts regarding events?</string>
+    <string name="permission_no_button">NO</string>
+    <string name="permission_yes_button">YES</string>
+    <string name="attempts">Attempts Remaining: 5 </string>
+    <string name="attempts_remaining_5">Attempts Remaining: 5</string>
+
+    <string name="logout_content_description">Logout</string>
+    <string name="exit_content_description">Exit</string>
+    <string name="add_event_content_description">Add Event</string>
+    <string name="back_arrow_content_description">Previous Screen</string>
+    <string name="edit_event_content_description">Edit Event</string>
+    <string name="delete_event_content_description">Delete Event</string>
+    <string name="time_display_content_description">Time Display</string>
+    <string name="date_display_content_description">Date Display</string>
+    <string name="event_title_content_description">Event Title</string>
+    <string name="nav_bar_content_description">Navigation Bar</string>
+    <string name="submit_date_content_description">Submit</string>
+    <string name="add_notes_here">Add notes here..</string>
+</resources>

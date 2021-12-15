@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TimePickerStyle" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="title">false</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#D13FB1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="background">@drawable/time_picker_layout</item>
+    </style>
+</resources>
